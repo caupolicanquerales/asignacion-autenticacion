@@ -1,15 +1,18 @@
 package com.capo.autenticacion.response;
 
+import java.util.UUID;
+
 public class UserResponse {
 	private String email;
 	private String firtsName;
 	private String lastName;
-	private Integer id;
+	private UUID id;
 	
-	public Integer getId() {
+	
+	public UUID getId() {
 		return id;
 	}
-	public void setId(Integer id) {
+	public void setId(UUID id) {
 		this.id = id;
 	}
 	public String getEmail() {

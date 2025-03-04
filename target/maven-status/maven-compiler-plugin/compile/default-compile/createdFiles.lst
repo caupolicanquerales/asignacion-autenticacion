@@ -6,6 +6,7 @@ com/capo/autenticacion/service/AuthenticationImpl.class
 com/capo/autenticacion/service/UserServiceImpl.class
 com/capo/autenticacion/request/AuthenticationRequest.class
 com/capo/autenticacion/repository/UserRepository.class
+com/capo/autenticacion/configurations/H2ConsoleConfiguration.class
 com/capo/autenticacion/AutenticacionApplication.class
 com/capo/autenticacion/configurations/JwtAuthenticationFilter.class
 com/capo/autenticacion/interfaces/JwtService.class

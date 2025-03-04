@@ -1,14 +1,16 @@
 package com.capo.autenticacion.entity;
 
+import java.util.UUID;
+
 import org.springframework.data.annotation.Id;
 import org.springframework.data.relational.core.mapping.Column;
 import org.springframework.data.relational.core.mapping.Table;
 
-@Table(name="registro")
+@Table(name="users")
 public class UserEntity {
 	
 	@Id
-	private Integer id;
+	private UUID id;
 	
 	@Column("first_name")
 	private String firtsName;
@@ -22,13 +24,11 @@ public class UserEntity {
 	@Column("password")
 	private String password;
 
-	
-
-	public Integer getId() {
+	public UUID getId() {
 		return id;
 	}
 
-	public void setId(Integer id) {
+	public void setId(UUID id) {
 		this.id = id;
 	}
 
